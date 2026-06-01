@@ -1,4 +1,3 @@
-# Task-3
 # VLSI Design Internship - Task 3
 ## Verilog RTL Design of Sequential Circuits and Flip-Flops
 
