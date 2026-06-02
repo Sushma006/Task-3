@@ -1,0 +1,75 @@
+# VLSI Design Internship – Task 3
+
+## Verilog RTL Design of Sequential Circuits and Flip-Flops
+
+### Objective
+
+The objective of this task is to design and simulate sequential circuits using Verilog HDL and verify their behavior using testbenches and waveform analysis.
+
+---
+
+## Circuits Implemented
+
+### 1. D Flip-Flop
+
+A D Flip-Flop stores one bit of data and updates the output on the rising edge of the clock signal.
+
+Result:
+The waveform confirmed that the output follows the input only at the positive edge of the clock.
+
+---
+
+### 2. JK Flip-Flop
+
+A JK Flip-Flop performs hold, reset, set, and toggle operations based on the values of J and K.
+
+Result:
+The waveform verified all four operating conditions and demonstrated correct sequential behavior.
+
+---
+
+### 3. 4-Bit Register
+
+A 4-bit Register stores four bits of data and transfers the input value to the output on each clock edge.
+
+Result:
+The output successfully captured and stored all input values applied during simulation.
+
+---
+
+### 4. 4-Bit Binary Counter
+
+A 4-bit Binary Counter increments its value by one on every rising edge of the clock signal.
+
+Result:
+The counter output increased sequentially with each clock pulse, confirming correct counting operation.
+
+---
+
+## Simulation Results
+
+Waveforms were generated using EDA Playground and EPWave.
+
+The simulations verified:
+
+* Clock-driven operation
+* Correct output transitions
+* Proper sequential behavior
+* Successful RTL implementation
+
+---
+
+## Observations
+
+* Sequential circuits depend on both clock signals and previous states.
+* D Flip-Flops are basic memory elements used to store data.
+* JK Flip-Flops provide more flexible state control through set, reset, and toggle operations.
+* Registers are used to store multiple bits of information.
+* Counters are widely used in digital systems for counting and timing applications.
+* Testbenches and waveform analysis are essential for verifying RTL designs.
+
+---
+
+## Conclusion
+
+The sequential circuits were successfully designed and simulated using Verilog HDL. D Flip-Flops, JK Flip-Flops, a 4-bit Register, and a 4-bit Binary Counter were implemented and verified through waveform analysis. This task improved understanding of RTL design, sequential logic, clock-based operation, and digital circuit verification, which are fundamental concepts in VLSI design.
